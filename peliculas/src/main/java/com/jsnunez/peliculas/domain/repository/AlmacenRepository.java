@@ -1,5 +1,10 @@
 package com.jsnunez.peliculas.domain.repository;
 
-public interface AlmacenRepository {
+import org.springframework.data.repository.CrudRepository;
+
+import com.jsnunez.peliculas.domain.entities.Almacen;
+
+public interface AlmacenRepository extends
+    CrudRepository<Almacen,Byte>{
 
 }

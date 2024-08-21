@@ -1,5 +1,10 @@
 package com.jsnunez.peliculas.domain.repository;
 
-public interface EmpleadoRepository {
+import org.springframework.data.repository.CrudRepository;
+
+import com.jsnunez.peliculas.domain.entities.Empleado;
+
+public interface EmpleadoRepository extends
+    CrudRepository<Empleado,Byte>{
 
 }
